@@ -1,5 +1,6 @@
 from datetime import datetime
 
+
 def get_timestamp():
 
     time_now = datetime.now()
