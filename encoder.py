@@ -4,8 +4,8 @@ from datetime import datetime
 import keys
 
 def generate_passwd(time_stamp):
-    time_now = datetime.now()       #print(time_now, this is unformatted time)
-    time_stamp = time_now.strftime("%Y%m%d%H%M%S")     #print(time_stamp, "this is formatted time")
+    time_now = datetime.now() 
+    time_stamp = time_now.strftime("%Y%m%d%H%M%S")
     
     #Generate password by base64 encoding BusinessShortcode, Passkey and Timestamp.
     data_to_encode = keys.business_code + keys.passkey + time_stamp
