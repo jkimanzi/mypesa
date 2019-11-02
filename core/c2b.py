@@ -14,8 +14,7 @@ def register_url():
         "ValidationURL": "https://micronics.co.ke/lipa/validation"
     }
 
-    response = requests.post(api_url, json = reque
-    st, headers=headers)
+    response = requests.post(api_url, json = request, headers=headers)
 
     print (response.text)
 #register_url() - url already registered; function is run once hence # comment
