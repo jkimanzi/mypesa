@@ -12,7 +12,6 @@ def generate_token():
     
     json_response = response.json()
     my_access_token = json_response['access_token']
-    print(my_access_token)
 
     access_token = my_access_token
 
