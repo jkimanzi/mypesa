@@ -1,7 +1,7 @@
 business_code = "enter business code"
 passkey = "Enter passkey from Daraja developer portal"
 consumer_key = "Consumer Key fro Daraja"
-consumer_secret = "kG5AnYQBIZtpXSEm"
+consumer_secret = "Consumer Key from Daraja portal"
 PhoneNumber = "PhoneNumber"
 shortcode = "Short code"
 test_msisdn = "test msisdn"
