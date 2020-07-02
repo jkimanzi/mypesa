@@ -22,12 +22,11 @@ def lipa_na_mpesa():
         "PartyA": keys.PhoneNumber,
         "PartyB": keys.business_code,
         "PhoneNumber": keys.PhoneNumber,
-        "CallBackURL": "https://micronics.co.ke/lipa/",
-        "AccountReference": "12345678",
-        "TransactionDesc": "Fees"
+        "CallBackURL": "Enter Callback URL",
+        "AccountReference": "Reference",
+        "TransactionDesc": "Transaction DEsc"
     }
     
     response = requests.post(api_url, json = request, headers=headers)
     
-    print (response.text)
 lipa_na_mpesa()
